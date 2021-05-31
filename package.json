@@ -1,0 +1,24 @@
+{
+  "name": "grupo8",
+  "version": "1.0.0",
+  "description": "Este es el proyecto de Desarrollo de Aplicaciones Web y Moviles",
+  "scripts": {
+    "lite":"lite-server bs-config.js",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohusemer/proyecto_DAWM_grupo8.git"
+  },
+  "keywords": [],
+  "author": "Ronny Segura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohusemer/proyecto_DAWM_grupo8/issues"
+  },
+  "homepage": "https://github.com/rohusemer/proyecto_DAWM_grupo8#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
