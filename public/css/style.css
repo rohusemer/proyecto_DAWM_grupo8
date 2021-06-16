@@ -100,3 +100,22 @@ body {
     bottom: 0;
     width: 100%;
 }
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; 
+}
+
+.modal-header {
+  color: floralwhite;
+  background: #1c3745; }
+  .modal-header .close {
+    color: floralwhite;
+    float: right;
+    font-size: 28px;
+    font-weight: bold; }
+
+.modal-body {
+  background: #9daef5; 
+}
