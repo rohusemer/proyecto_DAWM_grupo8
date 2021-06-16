@@ -12,20 +12,33 @@
     "url": "git+https://github.com/rohusemer/proyecto_DAWM_grupo8.git"
   },
   "keywords": [],
-  "author": "Ronny Segura",
+  "contributors": [
+    {
+      "name": "César Carlier"
+    },
+    {
+      "name": "Hayleen Carrillo"
+    },
+    {
+      "name": "Milen Ortega"
+    },
+    {
+      "name": "Ronny Segura"
+    }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rohusemer/proyecto_DAWM_grupo8/issues"
   },
   "homepage": "https://github.com/rohusemer/proyecto_DAWM_grupo8#readme",
   "devDependencies": {
-    "htmlmin": "^0.0.7",
+    "bootstrap": "^4.6.0",
+    "bootstrap-social": "^5.1.1",
+    "htmlmin": "0.0.7",
     "lite-server": "^2.6.1",
     "popper.js": "^1.16.1"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "bootstrap-social": "^5.1.1",
     "jquery": "^3.6.0",
     "popper": "^1.0.1"
   }
