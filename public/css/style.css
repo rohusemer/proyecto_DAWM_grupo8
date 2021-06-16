@@ -64,7 +64,13 @@
     }
 }
 .navbar-dark {
-    background-color: #1c3745; }
+    background-color: #1c3745; 
+}
+
+.navbar-brand > img {
+  width: 200px;
+
+}
   
 .tab-content {
     border-left: 1px solid #ddd;
