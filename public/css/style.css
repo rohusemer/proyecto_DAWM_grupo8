@@ -253,6 +253,7 @@ body {
 
 /*Servicios*/
 .services {
+  margin-top: 100px;
   padding-bottom: 20px;
 }
 
@@ -349,7 +350,7 @@ body {
 /*Footer*/
 
 #footer {
-  background: #0b212d;
+  background: #0F0D27;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -357,7 +358,7 @@ body {
 
 
 #footer .footer-top {
-  background: #0d2735;
+  background: #0F0D27;
   border-top: 1px solid #17455e;
   border-bottom: 1px solid #123649;
   padding: 60px 0 30px 0;
@@ -372,7 +373,7 @@ body {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  color: #a2cce3;
+  color: #14E7FF;
   font-weight: 600;
 }
 
@@ -408,7 +409,7 @@ body {
 #footer .footer-top h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #a2cce3;
+  color: #14E7FF;
   position: relative;
   padding-bottom: 12px;
 }
