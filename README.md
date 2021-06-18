@@ -15,3 +15,21 @@ Se intalaron dependencias
 npm install lite-server bootstrap bootstrap-social popper.js --save-dev
 npm install htmlmin jquery popper
 ```
+
+##Avance
+
+Barra de Navegación y sección Hero de la página principal
+
+![alt text](img/avance2-header.png)
+
+Sección de servicios de la página principal
+
+![alt text](img/avance2-secciones.png)
+
+Footer
+
+![alt text](img/avance2-footer.png)
+
+Logo de MoneyTrack
+
+![alt text](img/logo-01.png)
