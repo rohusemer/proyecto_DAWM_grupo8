@@ -1,52 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <!-- Bootstrap CSS -->
     <!-- build:css css/main.css-->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link href="public/css/style.css" rel="stylesheet" type="text/css" >
-    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" >
-    <link href="/img/favicon-mt.png" rel="icon">
-    <title>MoneyTrack</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
+    <link href="public/css/style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="/img/favicon-mt.png" rel="icon" />
+    <title>MoneyTracker</title>
+  </head>
 
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-        <div class="container">    
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="logoicon">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">                
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home da-lg"></span> Cómo Funciona</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nosotros.html"><span class="fa fa-info fa-lg"></span> Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Ayuda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contáctanos</a></li>
-                </ul>
-
-                <span id="btLogin" class="navbar-text">
-                    <a>
-                        <span class="fa fa-sign-in"></span> Login
-                    </a>
-                </span>
-            
-            </div>
-        <!--button class="btn btn-outline-success" type="submit">Sign Up</!--button -->
+  <body>
+    <header>
+      <div><nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+          <img src="/img/logo-01.png" alt="" >
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contáctanos</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav my-2 my-lg-0">
+            <li>
+              <a class="btn btn-outline-primary mr-sm-2" id="botonLogin" href="#" role="button">Iniciar Sesion</a>
+            </li>
+            <li>
+              <a class="btn btn-primary mr-sm-2" id="botonRegistro" href="#" role="button">Registrarse</a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
+    </div>
+      
+      
+      <!-- ======= Banner Section ======= -->
+      <section class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2>TOMA CONTROL DE TU DINERO</h2>
+              <p>Todas tus finanzas personales en un solo lugar.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
     <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
     <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
@@ -54,9 +86,9 @@
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Bienvenido a <span>MoneyTrack</span></h2>
-          <p class="animate__animated animate__fadeInUp">MoneyTrack es un administrador de finanzas personal que te ayudará a manejar mejor tu dinero y alcanzar las metas que te propongas. Puedes registrar y llevar control de gastos, ingresos, deudas y presupuesto. Te ayuda mediante herramientas para el orden, filtrado y evaluación de tu economía.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Únete Ahora</a>
+          <h2 class="animate__animated animate__fadeInDown">TOMA CONTROL DE TU EFECTIVO</h2>
+          <p class="animate__animated animate__fadeInUp">Todas tus finanzas personales en un solo lugar.</p>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Prueba la web app</a>
         </div>
       </div>
 
@@ -64,47 +96,74 @@
     </div>
   </section><!-- End Hero -->
 
-<!-- ======= Services Section ======= -->
-<section class="services">
-    <div class="container">
 
-      <div class="row">
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-          <div class="icon-box icon-box-pink">
-            <div class="icon"><i class="bi bi-cash-coin"></i></div>
-            <h4 class="title"><a href="">Controla tus Gastos</a></h4>
-            <p class="description">Lleva un registro de todos tus ingresos y gastos mensuales, así podrás ver en que consumes el dinero y decidir como utilizarlo de manera más inteligente.</p>
+    <!-- ======= Services Section ======= -->
+    <section class="services">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch"
+            data-aos="fade-up"
+          >
+            <div class="icon-box icon-box-pink">
+              <div class="icon"><i class="bi bi-cash-coin"></i></div>
+              <h4 class="title"><a href="">Controla tus Gastos</a></h4>
+              <p class="description">
+                Lleva un registro de todos tus ingresos y gastos mensuales, así
+                podrás ver en que consumes el dinero y decidir como utilizarlo
+                de manera más inteligente.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="icon-box icon-box-cyan">
+              <div class="icon"><i class="bi bi-trophy-fill"></i></div>
+              <h4 class="title"><a href="">Alcanza Metas</a></h4>
+              <p class="description">
+                Fíjate metas a corto y largo plazo. Puedes crear mejores hábitos
+                de consumo y reunir para alcanzar tus metas financieras.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="icon-box icon-box-green">
+              <div class="icon"><i class="bi bi-graph-up"></i></div>
+              <h4 class="title"><a href="">Visualiza tus Estadísticas</a></h4>
+              <p class="description">
+                Obtén un sinnúmero de gráficos estadísticos de todas tus
+                acciones financieras.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="icon-box icon-box-blue">
+              <div class="icon"><i class="bi bi-bell-fill"></i></div>
+              <h4 class="title"><a href="">Realiza tus Pagos a Tiempo</a></h4>
+              <p class="description">
+                No vuelvas a atrasarte en un pago, con MoneyTrack agenda tus
+                pagos y recibe notificaciones cuando sea de realizarlo.
+              </p>
+            </div>
           </div>
         </div>
-
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-          <div class="icon-box icon-box-cyan">
-            <div class="icon"><i class="bi bi-trophy-fill"></i></div>
-            <h4 class="title"><a href="">Alcanza Metas</a></h4>
-            <p class="description">Fíjate metas a corto y largo plazo. Puedes crear mejores hábitos de consumo y reunir para alcanzar tus metas financieras. </p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-          <div class="icon-box icon-box-green">
-            <div class="icon"><i class="bi bi-graph-up"></i></div>
-            <h4 class="title"><a href="">Visualiza tus Estadísticas</a></h4>
-            <p class="description">Obtén un sinnúmero de gráficos estadísticos de todas tus acciones financieras.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-          <div class="icon-box icon-box-blue">
-            <div class="icon"><i class="bi bi-bell-fill"></i></div>
-            <h4 class="title"><a href="">Realiza tus Pagos a Tiempo</a></h4>
-            <p class="description">No vuelvas a atrasarte en un pago, con MoneyTrack agenda tus pagos y recibe notificaciones cuando sea de realizarlo.</p>
-          </div>
-        </div>
-
       </div>
-
-    </div>
-  </section><!-- End Services Section -->
+    </section>
+    <!-- End Services Section -->
     <!--
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
@@ -166,66 +225,101 @@
         </div>
     </header>
 -->
-     <!-- ======= Footer ======= -->
-  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+    <!-- ======= Footer ======= -->
+    <footer
+      id="footer"
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="500"
+    >
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Cómo Funciona</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Ayuda</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Contáctanos</a>
+                </li>
+              </ul>
+            </div>
 
-   
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Address</h4>
+              <address>
+                Escuela Superior Politecnica del Litoral<br />
+                <i class="fa fa-envelope fa-lg"></i>:
+                <a href="mailto:ronhuseg@espol.edu.ec">ronhuseg@espol.edu.ec</a
+                ><br />
+                <i class="fa fa-envelope fa-lg"></i>:
+                <a href="mailto:myortega@espol.edu.ec">myortega@espol.edu.ec</a
+                ><br />
+                <i class="fa fa-envelope fa-lg"></i>:
+                <a href="mailto:haivcarr@espol.edu.ec">haivcarr@espol.edu.ec</a
+                ><br />
+              </address>
+            </div>
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>Sobre Nosotros</h3>
+              <p>
+                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+                nada terra videa magna derita valies darta donna mare fermentum
+                iaculis eu non diam phasellus.
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Cómo Funciona</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Ayuda</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Contáctanos</a></li>
-            </ul>
+              <a
+                class="btn btn-social-icon btn-google"
+                href="http://google.com/+"
+                ><i class="fa fa-google-plus fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-facebook"
+                href="http://www.facebook.com/profile.php?id="
+                ><i class="fa fa-facebook fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-linkedin"
+                href="http://www.linkedin.com/in/"
+                ><i class="fa fa-linkedin fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-twitter"
+                href="http://twitter.com/"
+                ><i class="fa fa-twitter fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-google"
+                href="http://youtube.com/"
+                ><i class="fa fa-youtube fa-lg"></i
+              ></a>
+            </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Address</h4>
-                    <address>
-                        Escuela Superior Politecnica del Litoral<br>
-                        <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:ronhuseg@espol.edu.ec">ronhuseg@espol.edu.ec</a><br>
-                        <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:myortega@espol.edu.ec">myortega@espol.edu.ec</a><br>
-                        <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:haivcarr@espol.edu.ec">haivcarr@espol.edu.ec</a><br>
-                    </address>
-          </div>
-
-          
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Sobre Nosotros</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-            
-                
-            
-          </div>
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            
-            <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
-            <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
-            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
-            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
-            
-
-          </div>
-
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Soul Programmers</span></strong>. All Rights Reserved
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Soul Programmers</span></strong
+          >. All Rights Reserved
+        </div>
       </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -233,6 +327,5 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <!-- endbuild-->
-
-</body>
+  </body>
 </html>
