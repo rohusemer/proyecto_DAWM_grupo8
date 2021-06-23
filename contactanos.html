@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="public/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/img/favicon-mt.png" rel="icon">
+    <title>Contáctanos</title>
+</head>
+
+<body>
+  <header>
+    <div><nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="/img/logo-01.png" alt="" >
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Equipo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav my-2 my-lg-0">
+          <li>
+            <a class="btn btn-outline-primary mr-sm-2" id="botonLogin" href="#" role="button">Iniciar Sesion</a>
+          </li>
+          <li>
+            <a class="btn btn-primary mr-sm-2" id="botonRegistro" href="#" role="button">Registrarse</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+      <h1> Contacta con nosotros</h1>
+
+    <!-- ======= Contact Section ======= -->
+    <section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <h3>Nos encuentras en</h3>
+                  <p>ESPOL, Campus "Gustavo Galindo" Km. 30.5 Vía Perimetral</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <h3>Escríbenos al correo</h3>
+                  <p>soulprogrammers@espol.edu.ec</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <h3>También puedes llamarnos a</h3>
+                  <p>+593 09xxxxxxxx</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <form>
+            <!--
+            Datos personales
+            Fecha de nacimiento
+            Selección de lugar de origen
+            Correo de Contacto
+            Detalles
+          -->
+
+      <div class="form-group-name">       <!-- Full Name -->
+          <label for="full_name_id" class="control-label">Nombres y Apellidos</label>
+          <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="Escribe tu nombre"><br>
+
+          <div class="form-group"> <!-- Fecha de nacimiento-->
+              <label for="fecha" class="control-label">Fecha de nacimiento</label><br>
+              <input type="date" name="fecha">
+          </div>
+      </div>
+
+
+      <div class="form-group"> <!-- Lugar de origen: provincia -->
+          <label for="state_id" class="control-label">Provincia</label>
+          <select class="form-control" id="state_id">
+              <option value="DEF">Elige una provincia</option>
+              <option value="AZ">Azuay</option>
+              <option value="BO">Bolívar</option>
+              <option value="CA">Cañar</option>
+              <option value="CAR">Carchi</option>
+              <option value="CH">Chimborazo</option>
+              <option value="CO">Cotopaxi</option>
+              <option value="EO">El Oro</option>
+              <option value="ES">Esmeradas</option>
+              <option value="GA">Galápagos</option>
+              <option value="GU">Guayas</option>
+              <option value="IM">Imbabura</option>
+              <option value="LO">Loja</option>
+              <option value="LR">Los Ríos</option>
+              <option value="MA">Manabí</option>
+              <option value="MS">Morona Santiago</option>
+              <option value="NA">Napo</option>
+              <option value="OR">Orellana</option>
+              <option value="PA">Pastaza</option>
+              <option value="PI">Pichincha</option>
+              <option value="SE">Santa Elena</option>
+              <option value="SD">Santo Domingo de los Tsáchilas</option>
+              <option value="SU">Sucumbíos</option>
+              <option value="TU">Tungurahua</option>
+              <option value="ZC">Zamora Chinchipe</option>
+          </select>
+      </div>
+
+      <div class="form-group-email"> <!-- Correo de contacto-->
+          <label for="email_id" class="control-label">Correo electrónico</label>
+          <input type="text" class="form-control" id="email_id" name="email" placeholder="xxxx@xxxx.com">
+      </div>
+
+      <div class="form-group mt-3">
+        <label for="email_id" class="control-label">Detalle</label>
+        <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+      </div>
+
+      <div class="my-3">
+<!--
+        <div class="loading">Cargando</div>
+        <div class="error-message"></div>
+        <div class="sent-message">Tu mensaje ha sido enviado. ¡Te contactaremos lo más pronto posible!</div>
+      </div>-->
+      <div class="text-center"><button type="submit">Enviar</button></div>
+    </form>
+
+
+
+      </div>
+    </div>
+    </section><!-- End Contact Section -->
+
+    <!-- ======= Map Section ======= -->
+
+     <section class="map mt-2">
+       <div class="container-fluid p-0">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15948.058677917108!2d-79.9644896!3d-2.1480702!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1624488619681!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </div>
+     </section><!-- End Map Section -->
+
+
+  </main><!-- End #main -->
+  <!-- ======= Footer ======= -->
+  <footer
+    id="footer"
+    data-aos="fade-up"
+    data-aos-easing="ease-in-out"
+    data-aos-duration="500"
+  >
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#">Cómo Funciona</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i> <a href="#">Ayuda</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Address</h4>
+            <address>
+              Escuela Superior Politecnica del Litoral<br />
+              <i class="fa fa-envelope fa-lg"></i>:
+              <a href="mailto:ronhuseg@espol.edu.ec">ronhuseg@espol.edu.ec</a
+              ><br />
+              <i class="fa fa-envelope fa-lg"></i>:
+              <a href="mailto:myortega@espol.edu.ec">myortega@espol.edu.ec</a
+              ><br />
+              <i class="fa fa-envelope fa-lg"></i>:
+              <a href="mailto:haivcarr@espol.edu.ec">haivcarr@espol.edu.ec</a
+              ><br />
+            </address>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Sobre Nosotros</h3>
+            <p>
+              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+              nada terra videa magna derita valies darta donna mare fermentum
+              iaculis eu non diam phasellus.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+
+            <a
+              class="btn btn-social-icon btn-google"
+              href="http://google.com/+"
+              ><i class="fa fa-google-plus fa-lg"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://www.facebook.com/profile.php?id="
+              ><i class="fa fa-facebook fa-lg"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-linkedin"
+              href="http://www.linkedin.com/in/"
+              ><i class="fa fa-linkedin fa-lg"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+              ><i class="fa fa-twitter fa-lg"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-google"
+              href="http://youtube.com/"
+              ><i class="fa fa-youtube fa-lg"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Soul Programmers</span></strong
+        >. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <!-- endbuild-->
+
+
+</body>
+
+</html>

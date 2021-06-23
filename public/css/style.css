@@ -24,21 +24,21 @@
     z-index: 10;
     width: 100%;
   }
-  
+
   a{
     color: white;
     text-decoration: none;
   }
-  
+
   a:hover {
     color: rgb(231, 229, 229);
     text-decoration: none;
   }
-  
+
   h1, h2, h3, h4, h5, h6, .font-primary {
     font-family: "Roboto", sans-serif;
   }
-  
+
   /*
    * Remove text-shadow in selection highlight:
    * https://twitter.com/miketaylr/status/12228805301
@@ -56,17 +56,17 @@
   video {
     vertical-align: middle;
   }
-  
+
   /*
    * Remove default fieldset styles.
-  
-  
+
+
   fieldset {
     border: 0;
     margin: 0;
     padding: 0;
   }
-   */ 
+   */
 
 .logo{
     width: 120px;
@@ -80,7 +80,7 @@
 
 
 .navbar-dark {
-  background-color: #0F0D27; 
+  background-color: #0F0D27;
 }
 
 .navbar-brand > img {
@@ -138,7 +138,7 @@
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0; }
-    
+
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
@@ -148,13 +148,13 @@ body {
 .row-header {
     margin: 0px auto;
     padding: 0px 0px; }
-  
+
 .row-content {
     margin: 0px auto;
     padding: 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px; }
-  
+
 .modal-header {
   color: floralwhite;
   background: #1c3745; }
@@ -165,7 +165,7 @@ body {
     font-weight: bold; }
 
 .modal-body {
-  background: #9daef5; 
+  background: #9daef5;
 }
 /*Inicial(Hero)*/
 
@@ -473,4 +473,109 @@ body {
 
 #footer .credits a {
   color: #a2cce3;
+}
+
+/*Contacto*/
+main{
+  margin-top: 7%; //para movil se debe agregar un poco mas
+}
+
+main > h1{
+  margin-left: 5%;
+  font-weight: bold;
+}
+.contact {
+  padding-bottom: 30px;
+  padding-top: 5%;
+
+}
+
+.contact .info-box {
+  color: #444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+  margin-bottom: 30px;
+}
+
+.contact .info-box i {
+  font-size: 32px;
+  color: #68A4C4;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #a2cce3;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #666;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+form {
+    margin-left: 5%;
+    font-weight: bold;
+    width: 40%;
+}
+
+
+.contact form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 45%;
+}
+
+
+
+
+.contact .my-3 .text-center button[type="submit"] {
+  background: #68A4C4;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.contact .my-3 .text-center button[type="submit"]:hover {
+  background: #8dbad2;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Map
+--------------------------------------------------------------*/
+.map {
+  padding: 0;
+  margin-bottom: -6px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 380px;
 }
