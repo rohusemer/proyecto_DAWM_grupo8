@@ -478,7 +478,7 @@ body {
 
 /*Contacto*/
 main{
-  margin-top: 7%; //para movil se debe agregar un poco mas
+  margin-top: 7%; /*para movil se debe agregar un poco mas*/
 }
 
 main > h1{
