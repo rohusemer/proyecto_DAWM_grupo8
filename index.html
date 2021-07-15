@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="d-flex">
       <div><nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand" href="#">
           <img src="/img/logo-01.png" alt="" >
@@ -28,15 +28,15 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#"><span class="fa fa-bell fa-lg"></span>Noticias</a>
+              <a class="nav-link" href="#">Noticias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="equipo.html"><span class="fa fa-info fa-lg"></span>Equipo</a>
+              <a class="nav-link" href="equipo.html">Equipo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contactanos.html"><span class="fa fa-address-card fa-lg"></span>Contáctanos</a>
+              <a class="nav-link" href="contactanos.html">Contáctanos</a>
             </li>
           </ul>
           <ul class="navbar-nav my-2 my-lg-0" id="btI">
@@ -50,19 +50,20 @@
         </div>
       </nav>
     </div>
+  </header>
 
       <!-- ======= Banner Section ======= -->
       <section class="banner">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-8">
               <h2>TOMA CONTROL DE TU DINERO</h2>
               <p>Todas tus finanzas personales en un solo lugar.</p>
             </div>
           </div>
         </div>
       </section>
-    </header>
+    
     <div id="loginModal" class="modal fade" role="dialog">
       <div class="modal-dialog modal-lg" role="content">
           <div class="modal-content">
@@ -104,27 +105,11 @@
       </div>
     </div>
 
-    <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex justify-cntent-center align-items-center">
-    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-      <!-- Slide 1 -->
-      <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">TOMA CONTROL DE TU EFECTIVO</h2>
-          <p class="animate__animated animate__fadeInUp">Todas tus finanzas personales en un solo lugar.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Prueba la web app</a>
-        </div>
-      </div>
-
-
-    </div>
-  </section><!-- End Hero -->
-
-
     <!-- ======= Services Section ======= -->
     <section class="services">
       <div class="container">
+        <h2>Tu planificador de finanzas diario</h2>
+        <p id="frase">Mantener tu presupuesto no deberia ser aburrido, debe ser facil y rapido. MoneyTracker es una forma nueva de cuidar tu dinero, de una manera nunca antes vista.</p>
         <div class="row">
           <div
             class="col-md-6 col-lg-3 d-flex align-items-stretch"
@@ -189,67 +174,24 @@
       </div>
     </section>
     <!-- End Services Section -->
-    <!--
-    <div id="loginModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg" role="content">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="madal-tittle">Login</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                        &times;
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-sm-4">
-                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
-                            </div>
-                            <div class="form-group col-sm-4">
-                                <label class="sr-only" for="exampleInputPassword3">Password</label>
-                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
-                            </div>
-                            <div class="col-sm-auto">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox">
-                                    <label class="form-check-label"> Remember me
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <header class="jumbotron">
-        <div class="container">
-            <div class="row row-header">
-                <div class="col-12 col-sm-6 col-md">
-                    <div class="col-12 col-sm-6 align-self-center">
-                        <img src="img/logo.png" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 align-self-center">
-                    <ul>
-                        <h3>Soul Programmers:</h3>
-                        <li>Hayleen Carrillo</li>
-                        <li>César Carlier</li>
-                        <li>Milen Ortega</li>
-                        <li>Ronny Segura</li>
-                    </ul>
-                </div>
-            </div>
+    <!-- ======= App Demo Section ======= -->
+    <section class="appdemo">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="/img/3516835_Mesa de trabajo 1.png" alt="">
+          </div>
+          <div class="col-lg-6 d-flex align-items-center justify-content-center">
+            <h2>Tu planificador de finanzas diario</h2>
+            <p id="frase">Mantener tu presupuesto no deberia ser aburrido, debe ser facil y rapido. MoneyTracker es una forma nueva de cuidar tu dinero, de una manera nunca antes vista.</p>
+          </div>
         </div>
-    </header>
--->
+      </div>
+    </section>
+    <!-- End App Demo Section -->
+
+ 
     <!-- ======= Footer ======= -->
     <footer
       id="footer"
@@ -289,6 +231,9 @@
                 ><br />
                 <i class="fa fa-envelope fa-lg"></i>:
                 <a href="mailto:haivcarr@espol.edu.ec">haivcarr@espol.edu.ec</a
+                ><br />
+                <i class="fa fa-envelope fa-lg"></i>:
+                <a href="mailto:ccarlier@espol.edu.ec">ccarlier@espol.edu.ec</a
                 ><br />
               </address>
             </div>

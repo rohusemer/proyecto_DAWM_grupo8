@@ -69,12 +69,18 @@
 
 
 .navbar-dark {
-  background-color: #0F0D27;
+  background-color: rgba(5, 13, 39, 1);
 }
 
 .navbar-brand > img {
-  width: 200px;
+  width: 150px;
+  margin-left: 200px;
 
+}
+
+
+#btI {
+  margin-right: 200px;
 }
 
 #botonRegistro {
@@ -88,9 +94,11 @@
 #newUser{
   color: floralwhite;
 }
+
+
 .banner {
   position: relative;
-  background-image: linear-gradient(to top, rgba(5, 13, 39, 0.9) 0%,rgba(15, 13, 39, 1) 100%), url(/img/bg-2.jpg);
+  background-image: url(/img/5524702.png),linear-gradient(to top, rgba(5, 13, 39, 1) 0%,rgba(15, 13, 39, 1) 100%), url(/img/bg-2.jpg);
   min-height: 100vh;
   background-size: cover;
   background-position: center;
@@ -99,12 +107,13 @@
 
 .banner > .container{
   align-self: center;
+  margin: 200px;
 }
 
 .banner h2{
   margin: 0;
   padding: 0;
-  font-size: 2.8em;
+  font-size: 4em;
   font-weight: 1000;
   color: white;
   text-transform: uppercase;
@@ -114,7 +123,7 @@
 .banner p{
   margin: 1em 0 0;
   padding: 0;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 1000;
   color: white;
   user-select: none;
@@ -126,11 +135,7 @@
     border-bottom: 1px solid #ddd;
     padding: 10px; }
 
-.jumbotron {
-  margin: 0px auto;
-  padding: 70px 30px;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("/img/bg-2.jpg") center top no-repeat;;
-  color: floralwhite; }
+
 
 .row-header {
     margin: 0px auto;
@@ -143,89 +148,6 @@
     min-height: 400px; }
 
 
-/*Inicial(Hero)*/
-
-#hero {
-  width: 100%;
-  height: 90vh;
-  overflow: hidden;
-  position: relative;
-}
-
-#hero::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 130%;
-  height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("/img/bg-2.jpg") center top no-repeat;
-  z-index: 0;
-  border-radius: 0 0 50% 50%;
-  transform: translateX(-50%) rotate(0deg);
-}
-
-#hero::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 130%;
-  height: 96%;
-  background: #68A4C4;
-  opacity: 0.3;
-  z-index: 0;
-  border-radius: 0 0 50% 50%;
-  transform: translateX(-50%) translateY(18px) rotate(2deg);
-}
-#hero .carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#hero h2 {
-  color: #fff;
-  margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
-}
-
-#hero p {
-  width: 80%;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
-  color: #fff;
-}
-#hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 10px;
-  color: #fff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
-}
-
-#hero .btn-get-started:hover {
-  background: #68A4C4;
-  color: #fff;
-  text-decoration: none;
-}
 
 /*Servicios*/
 .services {
@@ -323,6 +245,35 @@
 .services .icon-box-blue:hover {
   border-color: #2282ff;
 }
+
+.services h2{
+  text-align: center;
+  font-weight: 1000;
+}
+
+.services #frase{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*App Demo*/
+.appdemo {
+  margin-top: 100px;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+}
+
+.appdemo .row div{
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.appdemo h2{
+  text-align: left;
+  font-weight: 1000;
+}
+
 /*Footer*/
 
 #footer {
