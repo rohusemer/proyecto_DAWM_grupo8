@@ -1,5 +1,5 @@
 # proyecto_DAWM
-Este es el proyecto de Desarrollo de Aplicaciones Web y Moviles
+Este es el proyecto de Desarrollo de Aplicaciones Web y Moviles, construido bajo con un framework front-end llamado Bootstrap.
 ## Despues de Clonar
 intale las dependencias
 ``` 
