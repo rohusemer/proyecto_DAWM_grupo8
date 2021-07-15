@@ -16,7 +16,7 @@ npm install lite-server bootstrap bootstrap-social popper.js --save-dev
 npm install htmlmin jquery popper
 ```
 
-##Avance
+## Avance
 
 Barra de Navegación y sección Hero de la página principal
 
