@@ -85,7 +85,9 @@
 #botonLogin{
   color: #ddd;
 }
-
+#newUser{
+  color: floralwhite;
+}
 .banner {
   position: relative;
   background-image: linear-gradient(to top, rgba(5, 13, 39, 0.9) 0%,rgba(15, 13, 39, 1) 100%), url(/img/bg-2.jpg);
@@ -140,18 +142,7 @@
     border-bottom: 1px ridge;
     min-height: 400px; }
 
-.modal-header {
-  color: floralwhite;
-  background: #1c3745; }
-  .modal-header .close {
-    color: floralwhite;
-    float: right;
-    font-size: 28px;
-    font-weight: bold; }
 
-.modal-body {
-  background: #9daef5;
-}
 /*Inicial(Hero)*/
 
 #hero {
@@ -566,6 +557,32 @@ form {
   height: 380px;
 }
 
+/*Modal Login*/
+.modal-header {
+  color: floralwhite;
+  background: #0F0D27; }
+  .modal-header .close {
+    color: floralwhite;
+    float: right;
+    font-size: 28px;
+    font-weight: bold; }
+
+.modal-body {
+  background: linear-gradient(37deg, #0731A5,#14E7FF);
+  color: floralwhite;
+  align-content: center;
+  justify-content: center;
+}  .text-center{
+  color: floralwhite;
+  } .blue-text{
+  color: blue;
+  text-decoration: underline;
+}
+
+.modal-footer{
+  color: floralwhite;
+  background: #0F0D27; 
+}
 
 /*Registro*/
 .register{

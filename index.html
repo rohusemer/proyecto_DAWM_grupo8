@@ -3,32 +3,17 @@
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <!-- Bootstrap CSS -->
     <!-- build:css css/main.css-->
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/font-awesome/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap-social/bootstrap-social.css"
-    />
-    <link href="public/css/style.css" rel="stylesheet" type="text/css" />
-    <link
-      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="/img/favicon-mt.png" rel="icon" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
+    <link href="public/css/style.css" rel="stylesheet" />
+    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+    <link href="/img/favicon-mt.png" rel="icon"/>
     <title>MoneyTracker</title>
   </head>
 
@@ -54,18 +39,17 @@
               <a class="nav-link" href="contactanos.html"><span class="fa fa-address-card fa-lg"></span>Contáctanos</a>
             </li>
           </ul>
-          <ul class="navbar-nav my-2 my-lg-0">
-            <li>
-              <a class="btn btn-outline-primary mr-sm-2" id="botonLogin" href="signin.html" role="button">Iniciar Sesion</a>
-            </li>
-            <li>
-              <a class="btn btn-primary mr-sm-2" id="botonRegistro" href="signup.html" role="button">Registrarse</a>
-            </li>
+          <ul class="navbar-nav my-2 my-lg-0" id="btI">
+            <span id="botonLogin" class="btn btn-outline-primary mr-sm-2" role="button">
+              <a>Iniciar Sesion</a>
+            </span>
+            <span class="btn btn-primary mr-sm-2" id="botonRegistro" role="button" >
+              <a href="Signup.html">Registrarse</a>
+            </span>
           </ul>
         </div>
       </nav>
     </div>
-
 
       <!-- ======= Banner Section ======= -->
       <section class="banner">
@@ -79,6 +63,47 @@
         </div>
       </section>
     </header>
+    <div id="loginModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg" role="content">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="madal-tittle">Login</h4>
+                  <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                  </button>
+              </div>
+              <div class="modal-body">  
+                      <div class="form-row">
+                          <div class="form-group col-sm-6">
+                              <label for="usrname"><span class="fa fa-user"></span> Username or Email</label>
+                              <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                          </div>
+                          <div class="form-group col-sm-6">
+                              <label for="psw"><span class="fa fa-eye"></span> Password</label>
+                              <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                          </div>
+                          <div class="col-sm-12">
+                              <div class="form-check">
+                                  <div class="text-center text-sm-left"></div>
+                                  <input class="form-check-input" type="checkbox">
+                                  <label class="form-check-label"> Remember me </label>
+                                  <div class="text-center text-sm-right">
+                                    <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+                                    <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+                                  </div>                                  
+                              </div>
+                          </div>
+                      </div>
+                  
+              </div> 
+              <div class="modal-footer">
+                      <button id="SigC" type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                      <button id="SigL" type="button" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+              </div>
+          </div>
+      </div>
+    </div>
+
     <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
     <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
@@ -246,9 +271,6 @@
                   <i class="bx bx-chevron-right"></i> <a href="equipo.html">Nosotros</a>
                 </li>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Ayuda</a>
-                </li>
-                <li>
                   <i class="bx bx-chevron-right"></i>
                   <a href="contactanos.html">Contáctanos</a>
                 </li>
@@ -274,9 +296,8 @@
             <div class="col-lg-3 col-md-6 footer-info">
               <h3>Sobre Nosotros</h3>
               <p>
-                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-                nada terra videa magna derita valies darta donna mare fermentum
-                iaculis eu non diam phasellus.
+                Estudiantes de ESPOL cursando la materia de
+                Desarrollo Web y Movil.
               </p>
             </div>
             <div class="col-lg-3 col-md-6 footer-contact">
