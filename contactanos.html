@@ -56,7 +56,7 @@
                     &times;
                 </button>
             </div>
-            <div class="modal-body">  
+            <div class="modal-body">
                     <div class="form-row">
                         <div class="form-group col-sm-6">
                             <label for="usrname"><span class="fa fa-user"></span> Username or Email</label>
@@ -75,15 +75,15 @@
                                 <div class="text-center text-md-right">
                                   <p>Not a member? <a href="signup.html" class="blue-text">Sign Up</a></p>
                                   <p>Forgot <a href="#" class="blue-text">Password?</a></p>
-                                </div>                                  
+                                </div>
                             </div>
                         </div>
                     </div>
-                
-            </div> 
+
+            </div>
             <div class="modal-footer">
                     <button id="SigC" type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                    <button id="SigL" type="button" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                    <button id="SigL" type="button" class="btn btn-primary btn-sm ml-1">Sign in</button>
             </div>
         </div>
     </div>
@@ -96,6 +96,7 @@
          <hr>
       </div>
   </div>
+
     <!-- ======= Contact Section ======= -->
     <section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
       <div class="container">
@@ -103,21 +104,24 @@
         <div class="row">
 
           <div class="col-lg-6">
-
+            <div class="row">
+              <img src="/img/contact-us.jpg" alt="" >
+            </div>
             <div class="row">
               <div class="col-md-12">
                 <div class="info-box">
+                  <!--i class="bx bx-map"></i-->
                   <h3>Nos encuentras en</h3>
                   <p>ESPOL, Campus "Gustavo Galindo" Km. 30.5 Vía Perimetral</p>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="info-box">
                   <h3>Escríbenos al correo</h3>
                   <p>soulprogrammers@espol.edu.ec</p>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="info-box">
                   <h3>También puedes llamarnos a</h3>
                   <p>+593 09xxxxxxxx</p>
@@ -135,20 +139,23 @@
             Correo de Contacto
             Detalles
           -->
+      <div class="col-md-12">
+          <h4>Llena nuestro formulario y nos pondremos en contacto contigo lo antes posible.<br></h4>
+      </div>
 
       <div class="form-group-name">       <!-- Full Name -->
           <label for="full_name_id" class="control-label">Nombres y Apellidos</label>
           <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="Escribe tu nombre"><br>
 
-          <div class="form-group"> <!-- Fecha de nacimiento-->
+          <div class="form-group-fecha"> <!-- Fecha de nacimiento-->
               <label for="fecha" class="control-label">Fecha de nacimiento</label><br>
-              <input type="date" name="fecha">
+              <input type="date" class="form-control" name="fecha">
           </div>
       </div>
 
 
       <div class="form-group"> <!-- Lugar de origen: provincia -->
-          <label for="state_id" class="control-label">Provincia</label>
+          <label for="state_id" class="control-label"><br>Provincia</label>
           <select class="form-control" id="state_id">
               <option value="DEF">Elige una provincia</option>
               <option value="AZ">Azuay</option>

@@ -405,17 +405,41 @@
 }
 
 /*Contacto*/
-main{
-  margin-top: 7%; /*para movil se debe agregar un poco mas*/
+
+.contact > .row{
+  margin-top: 0px;
+}
+.contact > .container > .row > .col-lg-6 > .row > img{
+  margin-top: 0px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-main > h1{
-  margin-left: 5%;
+main > .row > .col-12 > h3{
+  margin-left: 7%;
   font-weight: bold;
+}
+
+
+/*
+form > .col-md-12{
+    background-color: black;
+}
+
+
+*/
+form > .col-md-12 > h4{
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10%;
+  font-size: large;
+
 }
 .contact {
   padding-bottom: 30px;
-  padding-top: 5%;
+  padding-top: 3%;
 
 }
 
@@ -462,8 +486,6 @@ form {
   margin-bottom: 30px;
   width: 45%;
 }
-
-
 
 
 .contact .my-3 .text-center button[type="submit"] {
@@ -533,7 +555,7 @@ form {
 
 .modal-footer{
   color: floralwhite;
-  background: #0F0D27; 
+  background: #0F0D27;
 }
 
 /*Registro*/
