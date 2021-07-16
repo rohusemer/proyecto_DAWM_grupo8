@@ -1,0 +1,2 @@
+0ea8b3a45c434748b0d10ed194209f28
+https://newsapi.org/docs/client-libraries/node-js

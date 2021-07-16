@@ -106,6 +106,11 @@
   margin: 200px;
 }
 
+.banner #botonCallToAction{
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
 .banner h2{
   margin: 0;
   padding: 0;
