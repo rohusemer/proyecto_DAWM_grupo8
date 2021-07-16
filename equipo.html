@@ -75,8 +75,9 @@
   </div>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="./index.html">
+    <header class="d-flex">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-5">
+        <a class="navbar-brand" href="/">
           <img src="/img/logo-01.png" alt="" >
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,15 +85,15 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#"><span class="fa fa-bell fa-lg"></span>Noticias</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span>Equipo</a>
+              <a class="nav-link" href="#">Noticias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contactanos.html"><span class="fa fa-address-card fa-lg"></span>Contáctanos</a>
+              <a class="nav-link" href="equipo.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactanos.html">Contáctanos</a>
             </li>
           </ul>
           <ul class="navbar-nav my-2 my-lg-0" id="btI">
@@ -104,98 +105,60 @@
             </span>
           </ul>
         </div>
-    </nav>
+      </nav>
+  </header>
 
-
-      <!-- ======= Banner Section ======= -->
-      <header class="banner">
-        <div class="container">
-          <div class="row row-header">
-            <div class="col-12 col-sm-6">
-              <h2>Soul Programmers</h2>
-              <p>We were inspired to improve the experience of keeping track of your monthly income and expenses. Our smartest way to control your money consumption.</p>
-            </div>
-            <div class="col-12 col-sm align-self-center">
-                <img src="img/logo-01.png" class="d-block img-fluid">                    
-            </div>
-          </div>
+  <section class="team d-flex">
+    <div class="container pt-2">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="/img/Logo SP-01.svg" alt="" >
         </div>
-      </header>
+        <div class="col-md-8 d-flex flex-lg-column justify-content-lg-center">
+          <h1>Conoce a nuestro asombroso equipo</h1>
+          <p><b>Soul Programmers</b> es un grupo de alumnos de la carrera de Ciencias Computacionales en la Escuela Politecnica del Litoral. Bajo la tutela del Ing. Allan Avendano, los 4 jovenes decidieron formar el colectivo. MoneyTracker es el primer proyecto de resultado de esta union.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="services">
+  <section class="programmers">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-               <h3>Conoce nuestros Diseñadores y Programadores</h3>
-               <hr>
-            </div>
+    <div class="row">
+      <div class="col-6 team-item align-self-start">
+        <div class="team__item__thumbnail" style="background-image:url(/img/cesar.jpeg);"></div>
+        <h2>Cesar Carlier</h2>
+        <p><strong>CEO &amp; Investor</strong></p>
+        <p>Michal Kratochvíl brings decades of experience in banking to his head role at BudgetBakers, where he intends to push the company towards closer cooperation with consumer banking in Europe, and worldwide. Michal served over 20 years as Director of Accenture in Central Europe, and he joined StartupYard (Seed Accelerator) as a shareholder, investor, and mentor in 2015.</p>
+        <ul class="socials"><li><a href="https://cz.linkedin.com/in/michal-kratochvil-74963420" target=""> <svg enable-background="new 0 0 100 100" height="512" viewBox="0 0 100 100" width="512" xmlns="http://www.w3.org/2000/svg"><path fill="#999999" d="m90 90v-29.3c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3h-15.9v53.4h16.6v-26.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26h16.6z"></path><path fill="#999999" d="m11.3 36.6h16.6v53.4h-16.6z"></path><path fill="#999999" d="m19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z"></path></svg> </a></li></ul>
+      </div>
+      <div class="col-6 team-item">
+        <div class="team__item__thumbnail" style="background-image:url(/img/hayleen.jpeg);"></div>
+        <h2>Hayleen Carrillo</h2>
+        <p><strong>CEO &amp; Investor</strong></p>
+        <p>Michal Kratochvíl brings decades of experience in banking to his head role at BudgetBakers, where he intends to push the company towards closer cooperation with consumer banking in Europe, and worldwide. Michal served over 20 years as Director of Accenture in Central Europe, and he joined StartupYard (Seed Accelerator) as a shareholder, investor, and mentor in 2015.</p>
+        <ul class="socials"><li><a href="https://cz.linkedin.com/in/michal-kratochvil-74963420" target=""> <svg enable-background="new 0 0 100 100" height="512" viewBox="0 0 100 100" width="512" xmlns="http://www.w3.org/2000/svg"><path fill="#999999" d="m90 90v-29.3c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3h-15.9v53.4h16.6v-26.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26h16.6z"></path><path fill="#999999" d="m11.3 36.6h16.6v53.4h-16.6z"></path><path fill="#999999" d="m19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z"></path></svg> </a></li></ul>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-6 team-item align-self-start">
+          <div class="team__item__thumbnail" style="background-image:url(/img/milen.jpeg);"></div>
+          <h2>Milen Ortega</h2>
+          <p><strong>CEO &amp; Investor</strong></p>
+          <p>Michal Kratochvíl brings decades of experience in banking to his head role at BudgetBakers, where he intends to push the company towards closer cooperation with consumer banking in Europe, and worldwide. Michal served over 20 years as Director of Accenture in Central Europe, and he joined StartupYard (Seed Accelerator) as a shareholder, investor, and mentor in 2015.</p>
+          <ul class="socials"><li><a href="https://cz.linkedin.com/in/michal-kratochvil-74963420" target=""> <svg enable-background="new 0 0 100 100" height="512" viewBox="0 0 100 100" width="512" xmlns="http://www.w3.org/2000/svg"><path fill="#999999" d="m90 90v-29.3c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3h-15.9v53.4h16.6v-26.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26h16.6z"></path><path fill="#999999" d="m11.3 36.6h16.6v53.4h-16.6z"></path><path fill="#999999" d="m19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z"></path></svg> </a></li></ul>
         </div>
-
-        <div class="row row-content align-items-center">
-            <div class=" icon-box icon-box-pink col col-sm order-sm-first col-md">
-                <div class="media"
-                data-aos="fade-up">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" 
-                        src="img/team-ex.jpg" alt="foto1" height="150" width="150">
-                    <div class="media-body">
-                        <h2 class="mt-0">Ronny Segura</h2>
-                        <h4>Ing. Ciencias Computacionales</h4>
-                        <p class="d-none d-sm-block">Estudiante de ESPOL cursando noveno semestre, con conocimientos en back-end como Express.js.</p>
-                    </div>
-                </div>                
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div class="icon-box icon-box-cyan col col-sm col-md">
-                <div class="media">
-                    <div class="media-body order-sm-first">
-                        <h2 class="mt-0">Milen Ortega</h2>
-                        <h4>Ing. Ciencias Computacionales</h4>
-                        <p class="d-none d-sm-block">Estudiante de ESPOL cursando séptimo semestre. </p>
-                    </div>
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" 
-                        src="img/team-ex.jpg" alt="foto2" height="150" width="150">
-                </div>
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div class="icon-box icon-box-green col col-sm order-sm-first col-md">
-                <div class="media"
-                data-aos="fade-up">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" 
-                        src="img/team-ex.jpg" alt="foto3" height="150" width="150">
-                    <div class="media-body">
-                        <h2 class="mt-0">Cesar Carlier</h2>
-                        <h4>Ing. Ciencias Computacionales</h4>
-                        <p class="d-none d-sm-block">Estudiante de ESPOL cursando noveno semestre.</p>
-                    </div>
-                </div>                
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div class="icon-box icon-box-blue col col-sm col-md">
-                <div class="media">
-                    <div class="media-body order-sm-first">
-                        <h2 class="mt-0">Hayleen Carrillo</h2>
-                        <h4>Ing. Ciencias Computacionales</h4>
-                        <p class="d-none d-sm-block">Estudiante de ESPOL cursando noveno semestre. </p>
-                    </div>
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" 
-                        src="img/team-ex.jpg" alt="foto4" height="150" width="150">
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-                <h2>Our History</h2>
-                <p>Founded in 2021, MoneyTracker established itself as a financial icon in Ecuador. With its unique brand of personal finance you can't find it anywhere else.  With four of the best students from the best university in Ecuador, you can have all your finances in one place.</p>
-                <p>MoneyTracker has its origins as a project of the <em>Web and Mobile Development</em> course at ESPOL, taught by Ing. Allan Avendaño.</p>
-            </div>
+        <div class="col-6 team-item">
+          <div class="team__item__thumbnail" style="background-image:url(/img/ronny.jpeg);"></div>
+          <h2>Ronny Segura</h2>
+          <p><strong>CEO &amp; Investor</strong></p>
+          <p>Michal Kratochvíl brings decades of experience in banking to his head role at BudgetBakers, where he intends to push the company towards closer cooperation with consumer banking in Europe, and worldwide. Michal served over 20 years as Director of Accenture in Central Europe, and he joined StartupYard (Seed Accelerator) as a shareholder, investor, and mentor in 2015.</p>
+          <ul class="socials"><li><a href="https://cz.linkedin.com/in/michal-kratochvil-74963420" target=""> <svg enable-background="new 0 0 100 100" height="512" viewBox="0 0 100 100" width="512" xmlns="http://www.w3.org/2000/svg"><path fill="#999999" d="m90 90v-29.3c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3h-15.9v53.4h16.6v-26.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26h16.6z"></path><path fill="#999999" d="m11.3 36.6h16.6v53.4h-16.6z"></path><path fill="#999999" d="m19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z"></path></svg> </a></li></ul>
         </div>
     </div>
-    </section>
-
+    
+    </div>
+  </section>
 
 <!-- ======= Footer ======= -->
 <footer
