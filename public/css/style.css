@@ -400,9 +400,7 @@
 }
 
 /*Contacto*/
-main{
-  margin-top: 7%; /*para movil se debe agregar un poco mas*/
-}
+
 .contact > .row{
   margin-top: 0px;
 }
@@ -427,7 +425,7 @@ form > .col-md-12{
 
 */
 form > .col-md-12 > h4{
-  text-align: justify;
+  text-align: center;
   font-weight: bold;
   font-style: italic;
   margin-bottom: 10%;
